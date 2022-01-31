@@ -1,0 +1,40 @@
+.pageContainer {
+  align-items: center;
+}
+
+.showcase {
+  background: url(../Layout/lights_out.jpg) no-repeat center/cover;
+}
+
+.showcase .showcase_overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex: 1;
+  text-align: center;
+  color: #ffff;
+}
+
+.container {
+  /* margin-bottom: 250px; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.title {
+  font-size: 35px;
+  margin-right: 80px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.quote {
+  font-size: 25px;
+  font-family: monospace;
+}

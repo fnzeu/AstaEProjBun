@@ -1,0 +1,24 @@
+.ctn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.input {
+  margin-left: 20px;
+  margin-top: 20px;
+  align-self: center;
+  text-align: center;
+  border-radius: 40px;
+  height: 30px;
+}
+
+.show {
+  background: url(../Layout/Product_Background.jpg);
+  background-size: cover;
+  padding-bottom: 1px;
+}

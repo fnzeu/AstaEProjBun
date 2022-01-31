@@ -1,0 +1,29 @@
+.card {
+  background-color: rgb(28, 27, 27);
+  border-radius: 10px;
+  column-gap: center;
+  height: fit-content;
+  width: 500px;
+  border: 1px solid rgb(28, 27, 27);
+  margin: 10px;
+  text-align: center;
+  font-size: 33px;
+  font-family: fantasy;
+  border-collapse: collapse;
+}
+
+.image {
+  border-radius: 40px;
+  justify-self: auto;
+}
+
+.buttonCnt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: white;
+  font-size: large;
+  margin-bottom: 20px;
+}

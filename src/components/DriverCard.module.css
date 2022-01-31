@@ -1,0 +1,82 @@
+.driverCard {
+  background-color: rgb(28, 27, 27);
+  border-radius: 10px;
+  column-gap: center;
+  height: 600px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  font-size: 33px;
+  font-family: fantasy;
+  border-collapse: collapse;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 25px;
+}
+
+.cntnr {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.driverCard:hover {
+  transition: all 0.3s ease-out;
+  background: #eff5f9;
+  transition: 1000ms;
+}
+
+.textMercedes {
+  color: #00d2be;
+  padding-bottom: 10px;
+}
+
+.textRedBull {
+  color: #0600ef;
+  padding-bottom: 10px;
+}
+
+.textFerrari {
+  color: #dc0000;
+  padding-bottom: 10px;
+}
+
+.textAlpine {
+  color: #0090ff;
+  padding-bottom: 10px;
+}
+
+.textHaas {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.textAstonMartin {
+  color: #006f62;
+  padding-bottom: 10px;
+}
+
+.textAlphaTauri {
+  color: #2b4562;
+  padding-bottom: 10px;
+}
+
+.textMclaren {
+  color: #ff8700;
+  padding-bottom: 10px;
+}
+
+.textAlphaRomeo {
+  color: #900000;
+  padding-bottom: 10px;
+}
+
+.textWilliams {
+  color: #005aff;
+  padding-bottom: 10px;
+}

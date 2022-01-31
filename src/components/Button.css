@@ -1,0 +1,36 @@
+  .btn {
+    padding: 12px 26px;
+    border-radius: 2px;
+    font-family:fantasy;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: #242424;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #fff;
+    width: 100px;
+    font-size: 15px;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+ 
+  .btn:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }

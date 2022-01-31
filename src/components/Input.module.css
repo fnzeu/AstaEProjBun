@@ -1,0 +1,22 @@
+  .container{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    } 
+  
+  label {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .input{
+      width: 300px;
+      height: 25px;
+      border-radius:10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 15px;
+  }

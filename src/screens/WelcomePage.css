@@ -1,0 +1,34 @@
+.pageContainer {
+  align-items: center;
+}
+
+.showcase {
+  background: url(../Layout/Home_Background.jpg) no-repeat center/cover;
+  /* height: 900px; */
+}
+
+.showcase .showcase-overlay {
+  padding-top: 155px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 250px;
+}
+
+.title {
+  font-size: 55px;
+}
+
+.quote {
+  font-size: 25px;
+  font-family: monospace;
+}

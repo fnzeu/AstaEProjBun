@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  padding: 30px;
+}
+
+.color {
+  color: blue;
+}
+
+.showcase {
+  background: url(../Layout/Product_Background.jpg);
+  background-size: cover;
+  height: 100%;
+}
